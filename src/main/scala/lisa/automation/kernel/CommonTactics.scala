@@ -21,7 +21,7 @@ object CommonTactics {
    * <pre>
    * Γ |- ∃x. φ, Δ   Γ', φ, φ[y/x] |- x = y, Δ'
    * -------------------------------------------
-   * Γ, Γ' |- ∃!x. φ, Δ, Δ'
+   *          Γ, Γ' |- ∃!x. φ, Δ, Δ'
    * </pre>
    *
    * This tactic separates the existence and the uniqueness proofs, which are often easier to prove independently, at
